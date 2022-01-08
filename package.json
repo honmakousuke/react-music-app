@@ -1,0 +1,17 @@
+{
+  "name": "react-music-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html -d dist",
+    "build": "parcel build src/index.html -d dist"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "parcel": "1.12.3",
+    "react": "16.8.5",
+    "react-dom": "16.8.5",
+    "rxjs": "^7.5.1"
+  }
+}
